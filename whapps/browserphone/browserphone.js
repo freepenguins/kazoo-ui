@@ -525,7 +525,7 @@ winkstart.module('browserphone', 'browserphone', {
                     secure_rtp   : 'none',
                     peer_to_peer : 'false',
                     audio : {
-                        codecs: ['PCMU', 'PCMA']
+                        codecs: ['OPUS', 'PCMU', 'PCMA']
                     },
                     video : {
                         codecs: []
